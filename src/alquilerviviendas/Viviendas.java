@@ -7,7 +7,7 @@ package alquilerviviendas;
 
 /**
  *
- * @author matias
+ * @author Leandro
  */
 public class Viviendas {
     
