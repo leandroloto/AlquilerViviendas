@@ -11,5 +11,23 @@ package alquilerviviendas;
  */
 public class Usuario {
     
-    private 
+  private String cuenta;
+  private String contraseña;
+  
+  public Usuario(String cuenta,String contraseña){
+      this.contraseña=contraseña;
+      this.cuenta=cuenta;
+  }
+  
+  public boolean ComprobarLogueo(String cuenta, String contraseña){
+      return this.contraseña.equals(contraseña) && this.cuenta.equals(cuenta);
+  }
+
+    public String getCuenta() {
+        return cuenta;
+    }
+
+    public String getContraseña() {
+        return contraseña;
+    }
 }
